@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#selection {
+    height: 100%;
+    background: #EBB442;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#selection2 {
+    height: 100%;
+    background: #67A1B1;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
