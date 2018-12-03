@@ -8,9 +8,24 @@
     <script src="js/script.js"></script>
 </head>
 
-<body >
-<div class="animate-bottom">
-<h1>TERE!</h1>
+<body>
+
+<div data-role="page" id="login">
+
+    <div class="animate-bottom">
+        <div class="form">
+            <form id="form1" method="post" action="" onsubmit="return check_form()">
+                <p id="login_label" >Log in</p>
+                <input type="text" id="name" placeholder="username">
+                <br>
+                <input type="password" id="pass" placeholder="password">
+                <br>
+                <!--<a href="#"><input type="submit" value="Sisene!"></a>-->
+                <br>
+                <button style="text-align: center;">Or Register</button>
+            </form>
+        </div>
+    </div>
 </div>
 
 

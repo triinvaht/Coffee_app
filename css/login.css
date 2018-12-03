@@ -1,9 +1,15 @@
+#login{
+    background-color: #EAE0CD;
+    height: 100%;
+}
+
 .animate-bottom {
     position: relative;
     -webkit-animation-name: animatebottom;
     -webkit-animation-duration: 1s;
     animation-name: animatebottom;
-    animation-duration: 1s
+    animation-duration: 1s;
+
 }
 
 @-webkit-keyframes animatebottom {
@@ -14,4 +20,10 @@
 @keyframes animatebottom {
     from{ bottom:-100px; opacity:0 }
     to{ bottom:0; opacity:1 }
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 10%;
 }
