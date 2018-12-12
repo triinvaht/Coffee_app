@@ -31,12 +31,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-
 }
 
 #selection2 img {
     width: 290px;
     margin: auto;
+}
 
-
+#original {
+    height: 50%;
+    background: #67A1B1;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
 }
