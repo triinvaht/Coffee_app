@@ -38,7 +38,7 @@ body {
     margin: auto;
 }
 
-#original {
+.original {
     height: 50%;
     background: #67A1B1;
     color: white;
@@ -48,4 +48,46 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+}
+
+.size {
+    background: #67A1B1;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.col-container {
+    display: table;
+    width: 100%;
+    margin: auto;
+
+
+}
+.col {
+    display: table-cell;
+    width: 50%;
+    color: white;
+}
+
+.col-image{
+    width: 80%;
+    margin-left: auto;
+    padding: 8%;
+}
+
+.col-container2 {
+    display: table;
+    width: 100%;
+    margin: auto;
+}
+.col2 {
+    display: table-cell;
+    width: 50%;
+    color: white;
 }
