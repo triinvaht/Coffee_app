@@ -1,0 +1,10 @@
+.heading {
+    background: #EBB442;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
