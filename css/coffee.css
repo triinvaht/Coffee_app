@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #selection {
     height: 100%;
     background: #EBB442;
@@ -33,13 +38,17 @@ body {
     margin: auto;
 }
 
+
 #selection2 img {
     width: 290px;
     margin: auto;
 }
 
+/*--------------------------------------------------*/
+
 .original {
-    height: 50%;
+    /*height: 100%;*/
+    /*width:50%;*/
     background: #67A1B1;
     color: white;
     font-size: 50px;
@@ -50,8 +59,33 @@ body {
     margin: auto;
 }
 
+.original a {
+    text-decoration: none;
+    color: white;
+}
+
 .original2 {
-    height: 50%;
+    /*height: 100%;*/
+    /*width: 50%;*/
+    background: #67A1B1;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.original2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.original3 {
+    /*height: 100%;*/
+    /*width: 50%;*/
     background: #67A1B1;
     color: white;
     font-size: 50px;
@@ -60,6 +94,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
+}
+
+.original3 a{
+    text-decoration: none;
+    color: white;
 }
 
 .size {
@@ -73,6 +112,24 @@ body {
     margin: auto;
 }
 
+.milk {
+    background: #67A1B1;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-decoration: none;
+}
+
+.milk a {
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------------------------------------------*/
 
 .col-container {
     display: table;

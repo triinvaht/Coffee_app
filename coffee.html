@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/order.js"></script>
 </head>
 <body>
 
@@ -15,10 +16,10 @@
         <a href="#choose"><img src="img/coffe-cup1.png"></a>
     </div>
 
-    <div data-role="content" id="selection2" href="special/size_s.html">
+    <div data-role="content" id="selection2">
         <p>Make your own</p>
-        <img src="img/espresso_patronum2.png">
-    </div>
+        <a href="special/size_s.html"><img src="img/espresso_patronum2.png"></a>
+</div>
 </div>
 
 <div data-role="page" id="choose">
@@ -28,30 +29,26 @@
     </div>
 
     <div class="col-container">
-        <div class="col" style="background: #23A5;">
+        <div id="small" class="col" style="background: #23A5;">
             <a href="#classic"><img class="col-image" src="img/cartoon-coffee-cup-png-5.png"></a>
             <p style=" font-size: 50px; text-align: center;">S</p>
         </div>
 
-        <div class="col" style="background: #2EFA;">
-            <img class="col-image" src="img/cartoon-coffee-cup-png-5.png">
+        <div id="medium" class="col" style="background: #2EFA;">
+            <a href="#classic"><img class="col-image" src="img/cartoon-coffee-cup-png-5.png"></a>
             <p style="font-size: 50px; text-align: center;">M</p>
         </div>
-
     </div>
 
-    <div class="col-container2">
-
+    <div id="large" class="col-container2">
         <div class="col2" style="background: #2EFA;">
             <img class="col-image" src="img/cartoon-coffee-cup-png-5.png">
             <p style="font-size: 50px; text-align: center;">L</p>
         </div>
-
-        <div class="col2" style="background: #23A5;">
+        <div id="extralarge" class="col2" style="background: #23A5;">
             <img class="col-image" src="img/cartoon-coffee-cup-png-5.png">
             <p style="font-size: 50px; text-align: center;">XL</p>
         </div>
-
     </div>
 </div>
 
@@ -61,20 +58,23 @@
         <p>Coffee selection</p>
     </div>
 
-    <div data-role="content" class="original2">
-        <p>Caffe Latte</p>
+    <div data-role="content" class="original2" >
+        <a  id="latte" href="selection.html"><p>Caffe Latter</p></a>
+
     </div>
 
-    <div data-role="content" class="original2">
-        <p>Cappuccino</p>
+    <div data-role="content" class="original2" >
+        <a id="cappuccino" href="selection.html"><p>Cappuccino</p></a>
     </div>
 
-    <div data-role="content" class="original2">
-        <p>Moccacchino</p>
+    <div data-role="content" class="original2" >
+        <a id="moccacchino" href="selection.html"><p>Moccacchino</p></a>
+
     </div>
 
-    <div data-role="content" class="original2">
-        <p>Frappucchino</p>
+    <div data-role="content" class="original2" >
+        <a id="frappucchino" href="selection.html"><p>Frappucchino</p></a>
+
     </div>
 
 </div>
