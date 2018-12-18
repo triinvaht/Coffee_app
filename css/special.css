@@ -8,3 +8,37 @@
     background-size: cover;
     margin: auto;
 }
+
+.small{
+    width: 250px;
+    padding: 0px 0 0 120px;
+}
+.medium{
+    width: 300px;
+    padding: 0px 0 0 100px;
+}
+.large{
+    width: 350px;
+    padding: 0px 0 0 80px;
+}
+.extralarge{
+    width: 400px;
+}
+.col{
+    height: 790px;
+    vertical-align: middle;
+}
+.col2{
+    height: 790px;
+    vertical-align: middle;
+}
+.row{
+   width: auto;
+   height: 340px;
+}
+.row-image{
+  float: inherit
+}
+p{
+    color: white;
+}
