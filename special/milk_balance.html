@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/coffee.css">
+    <link rel="stylesheet" href="../css/special.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+input[type='text'] { font-size: 300px; }
+</style>
+</head>
+<body>
+
+<div data-role="page" id="milk-balance">
+
+    <div data-role="content" class="heading">
+        <h1>Milk balance</h1>
+    </div>
+    <div style="background: #EAE0CD; background-size: 100%; height: 1550px">
+     <div id="container">
+
+
+		<div id="slider">		</div>
+
+<br><br>
+ <div><a class="perc"><img src="../img/percent.svg"></a></div>
+<label class="label_value" for="slider-value"></label><input type ="text" id="slider-value">
+        <div class="center">
+            <a href="milk_foam.html">Next</a>
+        </div>
+</div>
+</div>
+
+    </div>
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'></script>
+
+<script>
+
+
+  (function($){//begin closure
+
+    var selector = "#slider";
+
+  var slider = $(selector).slider({
+    range: "min",
+    value: 0,
+    min: 0,
+    max: 100,
+    step: 1,
+    slide: function(event, ui) {
+
+
+    },
+    create: function(event, ui) {
+
+    },
+change: function(event, ui){//begin function
+
+  //get the value
+  var value = sliderValue(selector);
+
+
+
+  //set the value of the text box
+  $("#slider-value").val(value);
+
+
+
+    }//end function
+
+
+
+  });
+
+
+  function sliderValue(selector){//begin function
+
+    //get the value of the slider
+    var value = $(selector).slider( "option", "value" );
+
+    //return the selector value
+    return value;
+
+  }//end function
+
+
+
+
+}(jQuery));//end closure
+    </script>
+</body>
+</html>
