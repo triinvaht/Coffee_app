@@ -10,7 +10,7 @@ a {
 
 #selection {
     height: 100%;
-    background: #EBB442;
+    background: #67A1B1;
     color: white;
     font-size: 50px;
     text-align: center;
@@ -59,7 +59,7 @@ a {
     margin: auto;
 }
 
-.original a {
+.original a p {
     text-decoration: none;
     color: white;
 }
@@ -78,9 +78,15 @@ a {
     margin: auto;
 }
 
-.original2 a {
+.original2 img {
+    width: 150px;
+
+}
+
+.original2 a p {
     text-decoration: none;
     color: white;
+    font-weight: normal;
 }
 
 .original3 {
@@ -96,7 +102,7 @@ a {
     margin: auto;
 }
 
-.original3 a{
+.original3 a p{
     text-decoration: none;
     color: white;
 }
@@ -122,11 +128,7 @@ a {
     background-size: cover;
     margin: auto;
     text-decoration: none;
-}
-
-.milk a {
-    text-decoration: none;
-    color: white;
+    font-weight: normal;
 }
 
 /*--------------------------------------------------*/
@@ -160,3 +162,43 @@ a {
     width: 50%;
     color: white;
 }
+
+/*--------------------------------------------------*/
+
+#small {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+#medium {
+    font-size: 50px;
+    text-align: center;"
+}
+
+#large {
+    font-size: 50px;
+    text-align: center;"
+}
+
+#extralarge {
+    font-size: 50px;
+    text-align: center;"
+}
+
+/*--------------------------------------------------*/
+
+#order {
+    background: #67A1B1;
+}
+
+.ui-page {
+    background: url("../img/finish.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
